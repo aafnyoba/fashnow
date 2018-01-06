@@ -23,6 +23,7 @@ Route::get('/product_details','ProductsController@showDetail');
 Route::get('/home', 'HomeController@index');
 Route::get('/home/{id}', 'HomeController@show');
 Route::post('/products','ProductsController@showPerCategories');
+Route::get('/profile','UserController@index');
 
 Route::get('/products', function()
 {
